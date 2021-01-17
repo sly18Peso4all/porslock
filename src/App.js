@@ -1,23 +1,60 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import "./styles/App.scss";
+import Hero from "./pages/Hero";
+import { Route, Switch } from "react-router-dom";
+import Navbar from "./component/Navbar";
+import Footer from "./component/Footer";
+import Items from "./data/Details";
+import Rooms from "./pages/Rooms";
+import SingleRoom from "./pages/SingleRooms";
 
 function App() {
+  const [state, setState] = useState({
+    rooms: [],
+    sortedRooms: [],
+    featuredRooms: [],
+    loading: true,
+  });
+
+  useEffect(() => {
+    let rooms = formatData(Items);
+    let featuredRooms = rooms.filter((room) => room.featured === true);
+    setState({
+      ...state,
+      rooms,
+      featuredRooms,
+      sortedRooms: rooms,
+    });
+  }, []);
+
+  const formatData = (Items) => {
+    let tempItems = Items.map((item) => {
+      let id = item.sys.id;
+      let images = item.fields.images.map(
+        (image, index) => image.fields.file.url
+      );
+      let room = { ...item.fields, images, id };
+      return room;
+    });
+    return tempItems;
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+
+      <Switch>
+        <Route exact path="/" component={Hero} />
+        <Route exact path="/rooms/:slug">
+          <SingleRoom state={state} />
+        </Route>
+        <Route exact path="/rooms">
+          <Rooms state={state} />
+        </Route>
+        <Route component={Error} />
+      </Switch>
+
+      <Footer />
     </div>
   );
 }

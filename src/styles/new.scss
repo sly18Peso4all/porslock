@@ -1,0 +1,139 @@
+// const [data, setData] = useState(null);
+//   const [loading, setLoading] = useState("false");
+
+//   useEffect(() => {
+//     async function getData() {
+//       try {
+//         setLoading("true");
+//         const response = await fetch(Data);
+//         const json = await response.json;
+//       } catch (error) {
+//         setLoading("null");
+//       }
+//     }
+//   });
+
+// .slider {
+//     width: 100%;
+//     height: 100%;
+//     padding: 4rem 0rem;
+//     overflow: hidden;
+
+//     .carousel-container {
+//       padding: 3rem calc((100vw -1300px) / 2);
+//       display: grid;
+//       grid-template-columns: 1fr 1fr;
+//       grid-template-rows: 800px;
+
+//       .column-left {
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: flex-start;
+//         line-height: 1.4;
+//         padding: 1rem 2rem;
+//         .fa-arrow-left {
+//         }
+//         .room-info {
+//           display: flex;
+//           flex-direction: column;
+
+//           h3 {
+//             margin-bottom: 1rem;
+//             font-size: clamp(1.5rem, 6vw, 2rem);
+//           }
+//           p {
+//             margin-bottom: 2rem;
+//           }
+//         }
+
+//         button {
+//           display: block;
+//         }
+//       }
+
+//       .column-right {
+//         padding: 1rem 2rem;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         .slider-image {
+//           height: 100%;
+//           width: 100%;
+//           object-fit: cover;
+//         }
+//       }
+
+//       @media screen and (max-width: 768px) {
+//         grid-template-columns: 1fr;
+//       }
+//     }
+//   }
+
+//Booking Section
+// verifyData = () => {
+//     const [data, setData] = useState("");
+//     if (data.infant > data.adult) {
+//       error = "Number of infants cannot be greater than number of adults";
+//       throw new Error();
+//     }
+//     setError = "";
+
+// import React, { useState, useref, useEffect } from "react";
+// // import RoomList from "./RoomList";
+// //import Data from "../../data/Data";
+
+// function RoomDisplay() {
+//   const [data, setData] = useState([]);
+//   const [isLoading, setIsLoading] = useState(false);
+//   const [sliderIndex, setSliderIndex] = useState(0);
+
+//   // const room = async () => {};
+
+//   useEffect(() => {
+//     setIsLoading(true);
+//     setData(Data);
+//   }, []);
+
+//   // Next Button
+//   let nextRoom = () => {
+//     if (sliderIndex + 1 > data.length - 1) {
+//       setSliderIndex(0);
+//     } else {
+//       setSliderIndex(sliderIndex + 1);
+//     }
+//   };
+
+//   // Prev Button
+//   let prevRoom = () => {
+//     if (sliderIndex - 1 < 0) {
+//       setSliderIndex(data.length - 1);
+//     } else {
+//       setSliderIndex(sliderIndex - 1);
+//     }
+//   };
+
+//   return (
+//     <div className="room-carousel">
+//       <h2>Our Rooms</h2>
+//       <div className="carousel-container">
+//         <div className="carousel-left">
+//           <i className="fas fa-arrow-left" onClick={() => prevRoom()}></i>
+//           <div className="room-content">
+
+//           </div>
+//         </div>
+//       </div>
+
+//       <div className="single-room-display">
+//         <i className="fas fa-arrow-left" onClick={() => prevRoom()}></i>
+//         <div>
+//           <div>{data.length > 1 && data[sliderIndex].title}</div>
+//         </div>
+//         <i className="fas fa-arrow-right" onClick={() => nextRoom()}></i>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default RoomDisplay;
