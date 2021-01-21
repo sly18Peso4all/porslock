@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import { FaAlignRight } from "react-icons/fa";
+// import { FaAlignRight } from "react-icons/fa";
 
 function Navbar() {
   // const [isOpen, setIsOpen] = useState(false);

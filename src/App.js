@@ -23,7 +23,6 @@ function App() {
     let rooms = formatData(Items);
     let featuredRooms = rooms.filter((room) => room.featured === true);
     setState({
-      ...state,
       rooms,
       featuredRooms,
       sortedRooms: rooms,

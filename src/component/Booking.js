@@ -154,8 +154,8 @@ const BookingBtn = (props) => {
 };
 
 /**** ClickHander ******/
-let clickHandler = function (e) {
-  e.preventDefault();
-};
+// let clickHandler = function (e) {
+//   e.preventDefault();
+// };
 
 export default Booking;
