@@ -11,7 +11,7 @@ function About() {
       <div className="about-container">
         <div className="about-wrapper">
           <div className="about-info">
-            <h2>10yeras of Rich History</h2>
+            <h2>10years of Rich History</h2>
             <h4>Welcome to Porslock ~ Hotels</h4>
             <p>
               Porslock Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
