@@ -1,5 +1,4 @@
 import React from "react";
-import Booking from "../component/Booking";
 import FeaturedRooms from "../component/FeaturedRooms";
 
 function Rooms({ state }) {
@@ -7,7 +6,8 @@ function Rooms({ state }) {
     <>
       <div className="room-list">
         <div className="room-booking">
-          <Booking />
+          <h1>Porslock Rooms</h1>
+          <p>See our amazing rooms</p>
         </div>
       </div>
       <FeaturedRooms state={state} />

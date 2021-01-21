@@ -7,6 +7,9 @@ import Footer from "./component/Footer";
 import Items from "./data/Details";
 import Rooms from "./pages/Rooms";
 import SingleRoom from "./pages/SingleRooms";
+import Contact from "./pages/Contact";
+import About from "./pages/About";
+import Reservation from "./component/Reservation";
 
 function App() {
   const [state, setState] = useState({
@@ -51,6 +54,9 @@ function App() {
         <Route exact path="/rooms">
           <Rooms state={state} />
         </Route>
+        <Route exact path="/reservation" component={Reservation} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
         <Route component={Error} />
       </Switch>
 

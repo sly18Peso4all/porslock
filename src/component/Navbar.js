@@ -1,25 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { FaAlignRight } from "react-icons/fa";
 
 function Navbar() {
+  // const [isOpen, setIsOpen] = useState(false);
+
+  // const handleToggle = () => {
+  //   setIsOpen(true);
+  // };
+
   return (
     <div>
       <header>
-        <div className="container">
+        <div className="header-container">
           <div className="inner-header">
             <div className="logo">
               <Link to="/">PORSLOCKS ~ HOTELS</Link>
             </div>
+            {/* <button type="button" className="nav-btn" onClick={handleToggle}>
+              <FaAlignRight className="nav-icon" />
+            </button> */}
+            {/* <div className={isOpen ? "navigation show-nav" : "navigation"}> */}
             <div className="navigation">
-              <nav>
-                <Link to="/">Home</Link>
-                <Link to="/rooms">Rooms</Link>
-                <Link to="/about">About-Us</Link>
-                <Link to="/contact">(0800) 43674321</Link>
-                <Link to="/rooms">
-                  <button>Book Now</button>
-                </Link>
-              </nav>
+              <Link to="/">Home</Link>
+              <Link to="/rooms">Rooms</Link>
+              <Link to="/about">About-Us</Link>
+              <Link to="/contact">Contact-us</Link>
+              <Link to="/rooms">
+                <button>Book Now</button>
+              </Link>
             </div>
           </div>
         </div>

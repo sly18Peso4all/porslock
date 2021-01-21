@@ -13,8 +13,8 @@ export default function Amenties() {
               <img src={card.image} alt=""></img>
             </div>
             <div className="card-body">
-              <h4>{card.title}</h4>
-              <p>{card.description}</p>
+              <h4 className="card-heading">{card.title}</h4>
+              <p className="card-description">{card.description}</p>
             </div>
           </article>
         ))}

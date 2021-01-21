@@ -5,11 +5,10 @@ import Data from "../../data/Data";
 
 function RoomDisplay() {
   const [data, setData] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
+
   const [sliderIndex, setSliderIndex] = useState(0);
 
   useEffect(() => {
-    setIsLoading(true);
     setData(Data);
   }, []);
 

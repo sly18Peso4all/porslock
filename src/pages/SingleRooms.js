@@ -65,7 +65,9 @@ function SingleRoom({ state }) {
             </ul>
           </div>
 
-          <Link to="#">Hey</Link>
+          <button className="reserve-button">
+            <Link to="/reservation">Reserve Room</Link>
+          </button>
         </>
       ) : (
         "loading data.."

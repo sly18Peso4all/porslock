@@ -2,7 +2,8 @@ import Room11 from "../images/room-11.jpg";
 import Room8 from "../images/room-8.jpg";
 import Room13 from "../images/room-13.jpg";
 import Room4 from "../images/room-4.jpg";
-import Room7 from "../images/room-7.jpg";
+import Room6 from "../images/room-6.jpg";
+import Room9 from "../images/room-9.jpg";
 import Img1 from "../images/img1.jpg";
 import Img2 from "../images/img2.jpg";
 import Img3 from "../images/img3.jpg";
@@ -17,9 +18,9 @@ const Details = [
       id: "1",
     },
     fields: {
-      name: "single economy",
+      name: " economy",
       slug: "economy",
-      type: "single",
+      type: "double",
       price: 100,
       size: 40,
       max: 1,
@@ -47,7 +48,7 @@ const Details = [
         {
           fields: {
             file: {
-              url: Room7,
+              url: Room6,
             },
           },
         },
@@ -138,8 +139,8 @@ const Details = [
       id: "4",
     },
     fields: {
-      name: "single economy",
-      slug: "single-economy",
+      name: "Presidential",
+      slug: "Exclusive",
       type: "single",
       price: 100,
       size: 40,
@@ -163,7 +164,7 @@ const Details = [
         {
           fields: {
             file: {
-              url: Room7,
+              url: Room9,
             },
           },
         },
@@ -207,7 +208,7 @@ const Details = [
       breakfast: false,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown",
+        "Exclusive art intestified bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch ,exploxing the exhortiveness of the serene",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -265,7 +266,7 @@ const Details = [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown",
+        "Modern  art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown and other subways that are really amazing and neat",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -317,9 +318,9 @@ const Details = [
       id: "2",
     },
     fields: {
-      name: "single basic",
-      slug: "single-basic",
-      type: "single",
+      name: "economy",
+      slug: "economy",
+      type: "duoble",
       price: 150,
       size: 42,
       capacity: 1,

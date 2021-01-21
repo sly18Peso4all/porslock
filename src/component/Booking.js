@@ -8,7 +8,6 @@ function Booking() {
   const [adult, setAdult] = useState(1);
   const [children, setChildren] = useState(0);
   const [infant, setInfant] = useState(0);
-  const [error, setError] = useState("");
 
   const history = useHistory();
 

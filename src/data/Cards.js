@@ -10,38 +10,38 @@ const cards = [
     image: Pic1,
     title: "Spas",
     description:
-      "Our Deluxe Twin/Large Double also provides views over landscaped gardens. it has a Seating area, digital safe andminibar.",
+      "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae",
   },
   {
     image: Pic2,
     title: "cozy-night-spot",
     description:
-      "Our Deluxe Twin/Large Double also provides views over landscaped gardens. it has a Seating area, digital safe andminibar.",
+      "Lasco doris ob unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi arcsunt, explicabo.",
   },
   {
     image: Pic3,
     title: "Fitness Center",
 
     description:
-      "Our Deluxe Twin/Large Double also provides views over landscaped gardens. it has a Seating area, digital safe andminibar.",
+      "ned ut perspiciodes, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae",
   },
   {
     image: Pic4,
     title: "Executive-bar",
     description:
-      "Our Deluxe Twin/Large Double also provides views over landscaped gardens. it has a Seating area, digital safe andminibar.",
+      "Tao ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo invetatis et quasi architecto beatae vitae dicta sunt",
   },
   {
     image: Pic5,
     title: "Our Palm-view",
     description:
-      "Our Deluxe Twin/Large Double also provides views over landscaped gardens. it has a Seating area, digital safe andminibar.",
+      "Jae oy perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque illo inventore veritatis et quasi architecto beatae vitae dicta jumper se.",
   },
   {
     image: Pic6,
     title: "Awesome inhouse-pool",
     description:
-      "Our Deluxe Twin/Large Double also provides views over landscaped gardens. it has a Seating area, digital safe andminibar.",
+      "Med ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam easa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta ",
   },
 ];
 
